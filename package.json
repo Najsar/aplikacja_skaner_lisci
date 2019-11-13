@@ -1,22 +1,18 @@
 {
-  "name": "electron-quick-start",
+  "name": "aplication_scanner",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Aplication for RagnarokStudio",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
+  "repository": "https://github.com/Najsar/aplikacja_skaner_lisci",
+  "author": "Patryk Najsarek",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^7.1.1"
+    "electron": "^7.1.1",
+    "electron-builder": "^22.1.0"
   }
 }
