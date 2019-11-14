@@ -13,11 +13,13 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     width: 1280,
     height: 800,
-    frame: false,
+    frame: true,
     icon: 'images/icon.png',
     fullscreen: false
   })
 
+  // disable default menu
+  mainWindow.removeMenu()
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
 
@@ -53,3 +55,7 @@ app.on('activate', function () {
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
+
+app.on('browser-window-created',function(e,window) {
+  window.removeMenu();
+});
