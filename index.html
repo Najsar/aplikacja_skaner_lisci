@@ -119,6 +119,10 @@
                         if(question == 4) {
                             $('#round'+question+'-questions').hide();
                             $('#end').show();
+                            setTimeout(function() {
+                                $('#end').hide();
+                                $('#start_screen').show();
+                            }, 5000);
                         }
                         else {
                             $('#round'+question+'-questions').hide();
