@@ -84,6 +84,28 @@
             nok[0] = 0;
             nok[1] = 0;
             nok[2] = 0;
+            var playing = 0;
+            song1 = new Audio('songs/1.mp3'); 
+            song2 = new Audio('songs/2.mp3');
+            song3 = new Audio('songs/3.mp3');
+            song4 = new Audio('songs/4.mp3');
+            song1.addEventListener('ended', function() {
+                this.currentTime = 0;
+                this.play();
+            }, false);
+            song2.addEventListener('ended', function() {
+                this.currentTime = 0;
+                this.play();
+            }, false);
+            song3.addEventListener('ended', function() {
+                this.currentTime = 0;
+                this.play();
+            }, false);
+            song4.addEventListener('ended', function() {
+                this.currentTime = 0;
+                this.play();
+            }, false);
+
             function retry(question, answer, element) {
                 if(ok_status == 0) {
                     $('#round'+question+'-ok').hide();
@@ -115,6 +137,18 @@
                         $(element).attr('src', 'images/round'+question+'_'+answer+'ok.png');
                     }
                     ok_status = 1;
+                    if(playing == 1) {
+                        song1.pause();
+                    }
+                    if(playing == 2) {
+                        song2.pause();
+                    }
+                    if(playing == 3) {
+                        song3.pause();
+                    }
+                    if(playing == 4) {
+                        song4.pause();
+                    }
                     setTimeout(function() {
                         if(question == 4) {
                             $('#round'+question+'-questions').hide();
@@ -128,6 +162,21 @@
                             $('#round'+question+'-questions').hide();
                             $('#round'+(Number(question)+1)).show();
                             setTimeout(function() {
+                                if(playing == 1 && question == 1) {
+                                    song2.play();
+                                    playing = 2;
+                                }
+                                if(playing == 2 && question == 2) {
+                                    song3.play();
+                                    playing = 3;
+                                }
+                                if(playing == 3 && question == 3) {
+                                    song4.play();
+                                    playing = 4;
+                                }
+                                if(playing == 4 && question == 4) {
+                                    playing = 0;
+                                }
                                 $('#round'+(Number(question)+1)).hide();
                                 $('#round'+(Number(question)+1)+'-questions').show();
                             }, 2000);
@@ -145,6 +194,8 @@
                     setTimeout(function() {
                         $('#round1').hide();
                         $('#round1-questions').show();
+                        song1.play();
+                        playing = 1;
                     }, 2000);
                 }, 3000);
                 
