@@ -18,11 +18,21 @@
             .main {
                 height: 30%;
                 width: 38%;
+                display: none;
+            }
+            #dark-screen {
+                height: 100%;
+                width: 100%;
+                position: relative;
+                right: 8px;
+                bottom: 8px;
+                background-color: black;
             }
         </style>
     </head>
     <body>
-        <div class="main">
+        <div id="dark-screen" tabindex="0"></div>
+        <div class="main" id="main">
             <div id="start_screen" style="display: block; position:relative; right:20%; bottom: 10%;">
                 <img src="images/start_screen.png" height="120%" width="140%" onclick="start()">
             </div>
@@ -79,6 +89,12 @@
         </div>
         <script src="js/jquery-3.4.1.min.js"></script>
         <script>
+            $( document ).ready(function() {
+                $( "#dark-screen" ).keydown(function() {
+                    $( "#dark-screen" ).hide();
+                    $( "#main" ).show();
+                });
+            });
             var ok_status = 0;
             var nok = [];
             nok[0] = 0;
@@ -156,6 +172,9 @@
                             setTimeout(function() {
                                 $('#end').hide();
                                 $('#start_screen').show();
+
+                                $( "#main" ).hide();
+                                $( "#dark-screen" ).show();
                             }, 5000);
                         }
                         else {
@@ -203,6 +222,10 @@
             function end() {
                 $('#end').hide();
                 $('#start_screen').show();
+
+                
+                $( "#main" ).hide();
+                $( "#dark-screen" ).show();
             }
         </script>
     </body>
