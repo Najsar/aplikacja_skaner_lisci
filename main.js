@@ -15,7 +15,7 @@ function createWindow () {
     height: 800,
     frame: false,
     icon: 'images/icon.png',
-    fullscreen: true
+    fullscreen: false
   })
 
   // disable default menu

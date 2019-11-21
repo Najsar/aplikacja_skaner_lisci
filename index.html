@@ -84,7 +84,7 @@
                 <img src="images/congratulation.png" id="round4-ok" height="40%" width="50%" style="display: none; margin: 5px; position:relative; left: 24.3%; top: 5%;">
             </div>
             <div id="end" style="display: none; position:relative; right:20%; bottom:80%">
-                <img src="images/end.png" height="250%" width="140%" onclick="end()">
+                <img src="images/end.png" height="250%" width="140%">
             </div>
         </div>
         <script src="js/jquery-3.4.1.min.js"></script>
@@ -166,6 +166,7 @@
                         song4.pause();
                     }
                     setTimeout(function() {
+                        $(element).attr('src', 'images/round'+question+'_'+answer+'.png');
                         if(question == 4) {
                             $('#round'+question+'-questions').hide();
                             $('#end').show();
@@ -218,14 +219,6 @@
                     }, 2000);
                 }, 3000);
                 
-            }
-            function end() {
-                $('#end').hide();
-                $('#start_screen').show();
-
-                
-                $( "#main" ).hide();
-                $( "#dark-screen" ).show();
             }
         </script>
     </body>
