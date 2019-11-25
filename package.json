@@ -8,7 +8,7 @@
     "pack": "electron-builder --dir",
     "dist": "electron-builder"
   },
-  "repository": "https://github.com/Najsar/aplikacja_skaner_lisci",
+  "repository": "https://github.com/Najsar/aplikacja_dzwieki_zwierzat",
   "author": "Patryk Najsarek",
   "license": "CC0-1.0",
   "devDependencies": {
