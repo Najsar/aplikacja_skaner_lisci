@@ -1,0 +1,21 @@
+{
+  "name": "skaner_lisci",
+  "version": "1.0.0",
+  "description": "Aplication for RagnarokStudio",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": "https://github.com/Najsar/aplikacja_dzwieki_zwierzat",
+  "author": "Patryk Najsarek",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^7.1.1",
+    "electron-builder": "^22.1.0"
+  },
+  "dependencies": {
+    "electron-reload": "^1.5.0"
+  }
+}
