@@ -10,7 +10,17 @@
         
         <script src="js/jquery-3.4.1.min.js"></script>
         <script>
-            
+            $.ajax({
+                url: "http://admin:admin00@192.168.0.175/stat.php?set=00000000",
+                xhrFields: {
+                    withCredentials: true
+                },
+                dataType: 'xml'
+            }).done((ajax) => {
+                var lights_on = $(ajax).find('on').text();
+                var lights_off = $(ajax).find('out').text();
+                console.log( 'Światla wlączone: ' + lights_on + ' Światła wyłączone: ' + lights_off)
+            })
         </script>
     </body>
 </html>

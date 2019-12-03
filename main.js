@@ -13,8 +13,8 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     width: 607,
     height: 1080,
-    frame: false,
-    icon: 'images/icon.png',
+    frame: true,
+    icon: 'build/icon.png',
     fullscreen: false
   })
 
