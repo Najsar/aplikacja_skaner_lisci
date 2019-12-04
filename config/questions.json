@@ -1,0 +1,787 @@
+{
+    "1": {
+        "name": "bez",
+        "code": "#1234567890",
+        "value-question": "3",
+        "value-info": "3",
+        "1": {
+            "question": "Czy twój liść jest pojedynczy czy złożony?",
+            "value-1": "Pojedynczy",
+            "value-2": "Złożony"
+        },
+        "2": {
+            "question": "Twój liść złożony jest...",
+            "value-1": "Parzystopierzasty",
+            "value-2": "Nieparzystopierzasty"
+        },
+        "3": {
+            "question": "W jaki sposób liście rosną na łodydze?",
+            "value-1": "Skrętolegle",
+            "value-2": "Naprzeciwlegle"
+        },
+        "congratulations": {
+            "text": "Gratulacje!",
+            "text-small": "Twój liść należy do bzu czarnego",
+            "text-bottom": "Poznaj lepiej bez czarny"
+        },
+        "i1": {
+            "image": "//",
+            "image-small": "//",
+            "text": "Owoce bzu czarnego są zebrane po kilkadziesiąt sztuk w gronach. Początkowo są one zielone, w trakcie dojrzewania stają się czerwonawe, po dojrzeniu natomiast przybierają piękny, błyszczacy czarny kolor. Są mięsiste i bardzo soczyste. Są cennym pokarmem wielu ptaków."
+        },
+        "i2": {
+            "image": "//",
+            "image-small2": "//",
+            "text": "Kora młodych bzów jest jasnoszara i gładka. Z wiekiem staje się grubsza, podłużnie bruzdowana i zaczyna się łuszczyć"
+        },
+        "i3": {
+            "image-big": "//",
+            "text": "Bzy są krzewami, dorastającymi do 10m wysokości. Czasem mają formę wielopniowego drzewa. Mają szeroką koronę, przypominającą kopułę. Bez ma bardzo wiele właściwości leczniczych. Znajduje szerokie zastosowanie w zielarstwie."
+        }
+    },
+    "2": {
+        "name": "brzoza",
+        "code": "#1234567890",
+        "value-question": "3",
+        "value-info": "3",
+        "1": {
+            "question": "Czy Twój liść jest pojedynczy czy złożony?",
+            "value-1": "Pojedynczy",
+            "value-2": "Złożony"
+        },
+        "2": {
+            "question": "Co przypomina Twój liść?",
+            "value-1": "igłę",
+            "value-2": "trójkąt"
+        },
+        "3": {
+            "question": "Brzeg Twojego liścia jest piłkowany czy gładki?",
+            "value-1": "Podwójnie Piłkowany",
+            "value-2": "Gładki"
+        },
+        "congratulations": {
+            "text": "Gratulacje!",
+            "text-small": "Twój liść należy do brzozy brodawkowatej.",
+            "text-bottom": "Poznaj lepiej brzozę brodawkowatą:"
+        },
+        "i1": {
+            "image": "//",
+            "image-small": "//",
+            "text": "Brzoza wyrasta z drobnych nasion (2-4 mm), zaopatrzonych w skrzydełka. Nasiona są ukryte w zwisających na szpułkach podłużnych szyszkach (owocostanach). Znajdują się pomiędzy łuskami przypominającymi parasol."
+        },
+        "i2": {
+            "image": "//",
+            "image-small2": "//",
+            "text": "Kora brzozy jest czarna w części pnia przy ziemi, a wyżej jest biała. Kolor biały zawdzięcza substancji zwanej betuliną, której kryształki załamują światło w sposób, sprawiający, że widzimy biały."
+        },
+        "i3": {
+            "image-big": "//",
+            "text": "Brzoza rośnie bardzo szybko. Może osiągniąć do 120 metrów wysokości i dozyć do 120 lat."
+        }
+    },
+    "3": {
+        "name": "buk",
+        "code": "#1234567890",
+        "value-question": "3",
+        "value-info": "3",
+        "1": {
+            "question": "Czy Twój liść jest pojedynczy czy złożony?",
+            "value-1": "Pojedynczy",
+            "value-2": "Złożony"
+        },
+        "2": {
+            "question": "Co przypomina Twój liść?",
+            "value-1": "Elipsę",
+            "value-2": "Lancę"
+        },
+        "3": {
+            "question": "Jaki brzeg ma Twój liść?",
+            "value-1": "Lekko falisty",
+            "value-2": "Podwójnie Piłkowany"
+        },
+        "congratulations": {
+            "text": "Gratulacje!",
+            "text-small": "Twój liść należy do buka pospolitego.",
+            "text-bottom": "Poznaj lepiej buka pospolitego:"
+        },
+        "i1": {
+            "image": "//",
+            "image-small": "//",
+            "text": "Owoce buka - to małe trójliścaste orzeszki, zamknięte w kolczastej okrywie, nazwane bukwią."
+        },
+        "i2": {
+            "image": "//",
+            "image-small2": "//",
+            "text": "Kora brzozy jest gładka i jasnoszara. Czasem spękana u starszych drzew."
+        },
+        "i3": {
+            "image-big": "//",
+            "text": "Buk jest potężnym drzewem o gęstej i szerokiej koronie, osiągającym do 30-35 metrów wysokości."
+        }
+    },
+    "4": {
+        "name": "czremacha",
+        "code": "#1234567890",
+        "value-question": "5",
+        "value-info": "3",
+        "1": {
+            "question": "Czy Twój liść jest pojedynczy czy złożony?",
+            "value-1": "Pojedynczy",
+            "value-2": "Złożony"
+        },
+        "2": {
+            "question": "Co przypomina Twój liść?",
+            "value-1": "Elipsę",
+            "value-2": "Serce"
+        },
+        "3": {
+            "question": "Czy Twój liść ma długi ostry wierzchołek?",
+            "value-1": "Tak",
+            "value-2": "Nie"
+        },
+        "4": {
+            "question": "Jaki brzeg ma Twój liść?",
+            "value-1": "Piłkowany",
+            "value-2": "Całobrzegi"
+        },
+        "5": {
+            "question": "Czy na spodzie liścia są kępki rdzawych włosków?",
+            "value-1": "Tak",
+            "value-2": "Nie"
+        },
+        "congratulations": {
+            "text": "Gratulacje!",
+            "text-small": "Twój liść należy do czermchy zwyczajnej.",
+            "text-bottom": "Poznaj lepiej czermchę zwyczajną:"
+        },
+        "i1": {
+            "image": "//",
+            "image-small": "//",
+            "text": "Czarne kuliste owoce czeremchy zwyczajnej są przysmakiem wielu ptaków. Ludzie również wykorzystują jej owoce do różnego rodzaju przetworów."
+        },
+        "i2": {
+            "image": "//",
+            "image-small2": "//",
+            "text": "Kora czeremchy zwyczajnej ma różne odcienie od różowoszarawej przez ciemnoszarobrunatną do czarniawej. U młodych drzewek kora jest gładka, ale wraz z wiekiem pojawiają się na niej niewielkie płytkie spękania. "
+        },
+        "i3": {
+            "image-big": "//",
+            "text": "Czeremcha zwyczajna jest niewielkim, gęsto ugałęzionym drzewem lub krzewem. Jeśli ma formę krzewiastą dorasta do 4 m, a jako drzewo dorasta do 15 m. Ma szeroką, jajowatą koronę i zwisające gałęzie. Pędy, odłamane gałązki, roztarte liście czy uszkodzona kora wydzielają zapach, który dla większości z nas jest nieprzyjemny."
+        }
+    },
+    "5": {
+        "name": "dąb",
+        "code": "#1234567890",
+        "value-question": "4",
+        "value-info": "3",
+        "1": {
+            "question": "Czy Twój liść jest pojedynczy czy złożony?",
+            "value-1": "Pojedynczy",
+            "value-2": "Złożony"
+        },
+        "2": {
+            "question": "Czy Twój liść ma klapy?",
+            "value-1": "Tak",
+            "value-2": "Nie"
+        },
+        "3": {
+            "question": "Czy wcięcia w klapie Twojego liścia są ostre czy okrągłe?",
+            "value-1": "ostre",
+            "value-2": "Okrągłe"
+        },
+        "4": {
+            "question": "Czy Twój liść ma „uszka” u nasady liścia?",
+            "value-1": "Tak",
+            "value-2": "Nie"
+        },
+        "congratulations": {
+            "text": "Gratulacje!",
+            "text-small": "Twój liść należy do dębu szypułkowego. Gdyby liść o podobnym kształcie nie miał „uszek” u nasady liścia, należałby do dębu bezszypułkowego.",
+            "text-bottom": "Poznaj lepiej dąb szypułkowy:"
+        },
+        "i1": {
+            "image": "//",
+            "image-small": "//",
+            "text": "Owocem dębów jest orzech nazywany żołędziem. Jest cennym pokarmem dla wielu ssaków i ptaków. Żołędzie zwisają z długich szypuł - stąd też nazwa gatunku."
+        },
+        "i2": {
+            "image": "//",
+            "image-small2": "//",
+            "text": "Młode dęby mają gładką, błyszczącą i brązowawą korę, a starsze grubą, podłużnie spękaną, szarą korę."
+        },
+        "i3": {
+            "image-big": "//",
+            "text": "Dąb szypułkowy jest potężnym drzewem osiągającym do 35-40 metrów wysokości. Najstarszy dąb w Polsce, Dąb Chrobry, ma ponad 750 lat!"
+        }
+    },
+    "6": {
+        "name": "dereń",
+        "code": "#1234567890",
+        "value-question": "3",
+        "value-info": "3",
+        "1": {
+            "question": "Co przypomina Twój liść?",
+            "value-1": "Dłoń",
+            "value-2": "Elipsę"
+        },
+        "2": {
+            "question": "Jaki brzeg ma Twój liść?",
+            "value-1": "Podwójnie piłkowany",
+            "value-2": "Gładki"
+        },
+        "3": {
+            "question": "Czy Twój liść ma długi ostry wierzchołek?",
+            "value-1": "Tak",
+            "value-2": "Nie"
+        },
+        "congratulations": {
+            "text": "Gratulacje!",
+            "text-small": "Twój liść należy do derenia jadalnego.",
+            "text-bottom": "Poznaj lepiej dereń jadalny:"
+        },
+        "i1": {
+            "image": "//",
+            "image-small": "//",
+            "text": "Soczyste owoce derenia jadalnego mimo swojego cierpkiego smaku są przysmakiem wielu ptaków. My, ludzie, również wykorzystujemy je w różnego rodzaju przetworach."
+        },
+        "i2": {
+            "image": "//",
+            "image-small2": "//",
+            "text": "Kora derenia jadalnego jest szarobrązowa z nieregularnymi i odpadającymi łuskami."
+        },
+        "i3": {
+            "image-big": "//",
+            "text": "Dereń jest niewielkim krzewem, dorastającym do 10 m wysokości. Ma wyjątkowo twarde i wytrzymałe drewno. Jako jeden z pierwszych krzewów zakwita już wczesną wiosną na piękny żółty kolor."
+        }
+    },
+    "7": {
+        "name": "głóg",
+        "code": "#1234567890",
+        "value-question": "3",
+        "value-info": "3",
+        "1": {
+            "question": "Czy Twój liść jest pojedynczy czy złożony?",
+            "value-1": "Pojedynczy",
+            "value-2": "Złożony"
+        },
+        "2": {
+            "question": "Czy wcięcia w klapie Twojego liścia są ostre czy okrągłe?",
+            "value-1": "Ostre",
+            "value-2": "Okrągłe"
+        },
+        "3": {
+            "question": "Jaką nasadę ma Twój liść?",
+            "value-1": "Klinowatą",
+            "value-2": "Asymetryczną"
+        },
+        "congratulations": {
+            "text": "Gratulacje!",
+            "text-small": "Twój liść należy do głogu jednoszyjkowego.",
+            "text-bottom": "Poznaj lepiej głog jednoszyjkowy:"
+        },
+        "i1": {
+            "image": "//",
+            "image-small": "//",
+            "text": "Czerwone kuliste owoce głogu są przysmakiem dla wielu ptaków. My, ludzie, również wykorzystujemy je w różnego rodzaju przetworach."
+        },
+        "i2": {
+            "image": "//",
+            "image-small2": "//",
+            "text": "Kora głogu jednoszyjkowego jest brunatnoszara, płytko podłużnie spękana. Cierniste pędy i gęsta korona sprawiają, że małe ptaki znajdują wśród głogów bezpieczne schronienie."
+        },
+        "i3": {
+            "image-big": "//",
+            "text": "Głóg przyjmuje formę krzewu lub niskiego drzewa. Dorasta do 8 metrów. Najczęściej ma charakterystyczny kulisty pokrój. Pień przeważnie jest pochylony i nisko rozgałęziony. Bardzo przypomina różę - a to dlatego, że należy do tej samej rodziny."
+        }
+    },
+    "8": {
+        "name": "grab",
+        "code": "#1234567890",
+        "value-question": "4",
+        "value-info": "3",
+        "1": {
+            "question": "Czy Twój liść jest pojedynczy czy złożony?",
+            "value-1": "Pojedynczy",
+            "value-2": "Złożony"
+        },
+        "2": {
+            "question": "Co przypomina Twój liść?",
+            "value-1": "Serce",
+            "value-2": "Elipsę"
+        },
+        "3": {
+            "question": "Jaki brzeg ma Twój liść?",
+            "value-1": "Lekko falisty",
+            "value-2": "Podwójnie piłkowany"
+        },
+        "4": {
+            "question": "Czy nerwy na Twoim liściu są bardzo wyraźnie widoczne i przypominają harmonijkę?",
+            "value-1": "Tak",
+            "value-2": "Nie"
+        },
+        "congratulations": {
+            "text": "Gratulacje!",
+            "text-small": "Twój liść należy do graba pospolitego.",
+            "text-bottom": "Poznaj lepiej graba pospolitego:"
+        },
+        "i1": {
+            "image": "//",
+            "image-small": "//",
+            "text": "Owoce grabu - orzeszki - mają charakterystyczne żeberkowania. Są okryte skrzydełkiem o trzech klapach."
+        },
+        "i2": {
+            "image": "//",
+            "image-small2": "//",
+            "text": "Kora grabów jest gładka i błyszcząca, srebrzystopopielata z ciemniejszymi pasami."
+        },
+        "i3": {
+            "image-big": "//",
+            "text": "Grab nie jest szczególnie wysokim drzewem. Zwykle dorasta do około 25 m. Posiada za to najtwardsze drewno spośród polskich drzew, które nazywane jest niekiedy „żelaznym drewnem”."
+        }
+    },
+    "9": {
+        "name": "jarząb",
+        "code": "#1234567890",
+        "value-question": "5",
+        "value-info": "3",
+        "1": {
+            "question": "Czy Twój liść jest pojedynczy czy złożony?",
+            "value-1": "Pojedynczy",
+            "value-2": "Złożony"
+        },
+        "2": {
+            "question": "Twój liść złożony jest...",
+            "value-1": "Parzystopierzasty",
+            "value-2": "Nieparzystopierzasty"
+        },
+        "3": {
+            "question": "Brzeg Twojego liścia jest gładki czy piłkowany?",
+            "value-1": "Gładki",
+            "value-2": "Piłkowany"
+        },
+        "4": {
+            "question": "Co przypomina Twój liść?",
+            "value-1": "Lancę",
+            "value-2": "Elipsę"
+        },
+        "5": {
+            "question": "W jaki sposób liście rosną na łodydze?",
+            "value-1": "Skrętolegle",
+            "value-2": "Naprzeciwlegle"
+        },
+        "congratulations": {
+            "text": "Gratulacje!",
+            "text-small": "Twój liść należy do jarzębu pospolitego.",
+            "text-bottom": "Poznaj lepiej jarząb pospolity:"
+        },
+        "i1": {
+            "image": "//",
+            "image-small": "//",
+            "text": "Owoce jarzębu pospolitego mimo cierpkiego i gorzkiego smaku są przysmakiem wielu ptaków. Przez człowieka owoce mogą być spożywane po przetworzeniu - w postaci konfitur, soków czy jako składnik ziołowych mieszanek."
+        },
+        "i2": {
+            "image": "//",
+            "image-small2": "//",
+            "text": "Kora jarzębów jest jasna i gładka."
+        },
+        "i3": {
+            "image-big": "//",
+            "text": "Jarzęby mogą mieć postać krzewiastą lub drzewiastą. W istocie są niewielkimi drzewami, dorastającymi do 20 metrów, o stożkowatej lub zaokrąglonej sylwetce korony i twardym drewnie."
+        }
+    },
+    "10": {
+        "name": "jesion",
+        "code": "#1234567890",
+        "value-question": "5",
+        "value-info": "3",
+        "1": {
+            "question": "Czy Twój liść jest pojedynczy czy złożony?",
+            "value-1": "Pojedynczy",
+            "value-2": "Złożony"
+        },
+        "2": {
+            "question": "Twój liść złożony jest...",
+            "value-1": "Parzystopierzasty",
+            "value-2": "Nieparzystopierzasty"
+        },
+        "3": {
+            "question": "Brzeg Twojego liścia jest gładki czy piłkowany?",
+            "value-1": "Gładki",
+            "value-2": "Piłkowany"
+        },
+        "4": {
+            "question": "Co przypomina Twój liść?",
+            "value-1": "Lancę",
+            "value-2": "Elipsę"
+        },
+        "5": {
+            "question": "W jaki sposób liście rosną na łodydze?",
+            "value-1": "Skrętolegle",
+            "value-2": "Naprzeciwlegle"
+        },
+        "congratulations": {
+            "text": "Gratulacje!",
+            "text-small": "Twój liść należy do jesiona wyniosłego.",
+            "text-bottom": "Poznaj lepiej jesion wyniosły:"
+        },
+        "i1": {
+            "image": "//",
+            "image-small": "//",
+            "text": "Owocem jesionu jest spłaszczony orzeszek ze skrzydełkiem. Owoce zwisają w dużych pęczkach z gałęzi. Opadają z drzew od jesieni przez całą zimę i często możemy je zaobserwować jeszcze wiosną na gałęziach."
+        },
+        "i2": {
+            "image": "//",
+            "image-small2": "//",
+            "text": "U młodych jesionów kora jest bardzo gładka, popielatoszara, a wraz z wiekiem pojawiają się pęknięcia."
+        },
+        "i3": {
+            "image-big": "//",
+            "text": "Jesiony wyniosłe swoją nazwę zawdzięczają konarom, które wznoszą się ku górze pod kątem ostrym. Są drzewami o smukłym, prostym pniu i o cylindrycznej koronie. Zimą na gałązkach możemy z łatwością zaobserwować charakterystyczne czarne pąki. Jesiony żyją do 250 lat, osiągają wysokość około 40 metrów."
+        }
+    },
+    "11": {
+        "name": "jodła",
+        "code": "#1234567890",
+        "value-question": "3",
+        "value-info": "3",
+        "1": {
+            "question": "Co przypomina Twój liść?",
+            "value-1": "Dłoń",
+            "value-2": "Igłę"
+        },
+        "2": {
+            "question": "Igły wyrastają pojedynczo czy jest ich więcej?",
+            "value-1": "Pojedyncza igła",
+            "value-2": "Więcej niż jedna igła"
+        },
+        "3": {
+            "question": "Czy Twój liść ma na spodzie dwa białe paski?",
+            "value-1": "Tak",
+            "value-2": "Nie"
+        },
+        "congratulations": {
+            "text": "Gratulacje!",
+            "text-small": "Twój liść należy do jodły pospolitej.",
+            "text-bottom": "Poznaj lepiej jodłę pospolitą:"
+        },
+        "i1": {
+            "image": "//",
+            "image-small": "//",
+            "text": "Szyszki jodły pospolitej mają walcowaty kształt, osiągają długość ok. 15 cm i średnicę wynoszącą 3-5 cm. W przeciwieństwie do szyszek świerka pospolitego, szyki jodły pospolitej „stoją” pionowo na gałęziach. Młode szyszki są zielone, z czasem przybierają barwę brązową. W szyszkach znajdują się nasiona o trójkątnym kształcie, zaopatrzone w szerokie skrzydełko. Nasiona są przysmakiem wiewiórek i ptaków."
+        },
+        "i2": {
+            "image": "//",
+            "image-small2": "//",
+            "text": "Kora młodych jodeł jest gładka, jasnopopielata z wyraźnymi pęcherzykami żywicy. Kora starszych drzew jest wąsko spękana na tarczkowate płytki. "
+        },
+        "i3": {
+            "image-big": "//",
+            "text": "Jodłę pospolitą wyróżnia stożkowata korona, wyraźny strzelisty pień i konary ułożone w okółkach. Jodły należą do jednych z najwyższych drzew w Europie - dorastając nawet do 55 metrów. Rosną powoli, znosząc dobrze duże ocienienie. Jodły pospolite - to gatunki długowieczne, żyjące 300-600 lat, rekordziści dożywają do 800 lat. "
+        }
+    },
+    "12": {
+        "name": "klon jawor",
+        "code": "#1234567890",
+        "value-question": "4",
+        "value-info": "3",
+        "1": {
+            "question": "Czy Twój liść jest pojedynczy czy złożony?",
+            "value-1": "Pojedynczy",
+            "value-2": "Złożony"
+        },
+        "2": {
+            "question": "Co przypomina Twój liść?",
+            "value-1": "Serce",
+            "value-2": "Dłoń"
+        },
+        "3": {
+            "question": "Twój liść jest dłoniastodzielny czy dłoniasto-klapowany?",
+            "value-1": "Dłoniastodzielny",
+            "value-2": "Dłoniastoklapowany"
+        },
+        "4": {
+            "question": "Czy wcięcia w klapie Twojego liścia są ostre czy okrągłe?",
+            "value-1": "Ostre",
+            "value-2": "Okrągłe"
+        },
+        "congratulations": {
+            "text": "Gratulacje!",
+            "text-small": "Twój liść należy do klonu jawora.",
+            "text-bottom": "Poznaj lepiej klon jawor:"
+        },
+        "i1": {
+            "image": "//",
+            "image-small": "//",
+            "text": "Owoce klonu jawora - to charakterystyczne podwójne skrzydlaki, rozwarte pod kątem ostrym. U ich nasady skrywają się dwa kuliste orzeszki (nasiona)."
+        },
+        "i2": {
+            "image": "//",
+            "image-small2": "//",
+            "text": "Kora klonu jaworu jest wyjątkowa. Przypomina nachodzące na siebie spękane „kafelki”, co upodabnia ją nieco do kory rosnących w południowej Europie drzew - platanów. Stąd łacińska nazwa „pseudoplatanus” (falszywy platan)."
+        },
+        "i3": {
+            "image-big": "//",
+            "text": "Klon jawor dorasta do około 40 m. Posiada szyroką i wysoko osadzoną koronę. Osiąga wiek około 500 lat. Spotkać go można w wilgotnych górskich lasach."
+        }
+    },
+    "13": {
+        "name": "klon pospolity",
+        "code": "#1234567890",
+        "value-question": "5",
+        "value-info": "3",
+        "1": {
+            "question": "Czy Twój liść jest pojedynczy czy złożony?",
+            "value-1": "Pojedynczy",
+            "value-2": "Złożony"
+        },
+        "2": {
+            "question": "Czy Twój liść ma klapy?",
+            "value-1": "Tak",
+            "value-2": "Nie"
+        },
+        "3": {
+            "question": "Co przypomina Twój liść? ",
+            "value-1": "Dłoń",
+            "value-2": "Serce"
+        },
+        "4": {
+            "question": "Twój liść jest dłoniastodzielny czy dłoniasto-klapowany?",
+            "value-1": "Dłoniastodzielny",
+            "value-2": "Dłoniasto-klapowany"
+        },
+        "5": {
+            "question": "Czy Twój liść ma ostro zakończone wierzchołki klap?",
+            "value-1": "Tak",
+            "value-2": "Nie"
+        },
+        "congratulations": {
+            "text": "Gratulacje!",
+            "text-small": "Twój liść należy do klonu pospolitego.",
+            "text-bottom": "Poznaj lepiej klon pospolitego:"
+        },
+        "i1": {
+            "image": "//",
+            "image-small": "//",
+            "text": "Owoce klonu pospolitego - to charakterystyczne podwójne skrzydlaki, rozwarte pod kątem mocno rozwartym. U ich nasady skrywają się dwa kuliste orzeszki (nasiona)."
+        },
+        "i2": {
+            "image": "//",
+            "image-small2": "//",
+            "text": "Kora młodych klonów pospolitych jest jasnoszara i gładka. U starszych drzew jest ona ciemnoszara i pokryta wzorem gęstych i niezbyt głębokich pionowych bruzd."
+        },
+        "i3": {
+            "image-big": "//",
+            "text": "Korony klonów pospolitych są okrągłe, rozłożyste, często przyjmują kształt parasola. Dorastają do 30 metrów, a rekordziści żyją do 150 lat. "
+        }
+    },
+    "14": {
+        "name": "lipa",
+        "code": "#1234567890",
+        "value-question": "3",
+        "value-info": "3",
+        "1": {
+            "question": "Czy Twój liść jest pojedynczy czy złożony?",
+            "value-1": "Pojedynczy",
+            "value-2": "Złożony"
+        },
+        "2": {
+            "question": "Co przypomina Twój liść?",
+            "value-1": "Dłoń",
+            "value-2": "Serce"
+        },
+        "3": {
+            "question": "Jakiego koloru są kępki włosków na spodniej stronie Twojego liścia?",
+            "value-1": "Pomarańczowo-Brązowe",
+            "value-2": "Białe"
+        },
+        "congratulations": {
+            "text": "Gratulacje!",
+            "text-small": "Twój liść należy do  lipy drobnolistnej.",
+            "text-bottom": "Poznaj lepiej lipę drobnolistną:"
+        },
+        "i1": {
+            "image": "//",
+            "image-small": "//",
+            "text": "Owoce lipy - to niewielkie kuliste orzeszki, umieszczone po kilka na szypułkach. Z kwiatów lipy przyrządza się herbatki, stosowane w przypadku lekkich przeziębień."
+        },
+        "i2": {
+            "image": "//",
+            "image-small2": "//",
+            "text": "Kora lipy drobnolistnej jest początkowo gładka, o charakterystycznej szarawej barwie, jednak wraz z wiekiem staje się wyraźnie grubsza i bardzo nieregularna. Młode gałązki mają lekko brunatnoczerwone zabarwienie."
+        },
+        "i3": {
+            "image-big": "//",
+            "text": "Lipa drobnolistna dorasta do około 30 m i posiada nieregularną, lekko jajowatą lub też kulistą koronę. Wiek najstarszych okazów tego drzewa szacowany jest na około 1200 lat!"
+        }
+    },
+    "15": {
+        "name": "olsza",
+        "code": "#1234567890",
+        "value-question": "4",
+        "value-info": "3",
+        "1": {
+            "question": "Czy Twój liść jest pojedynczy czy złożony?",
+            "value-1": "Pojedynczy",
+            "value-2": "Złożony"
+        },
+        "2": {
+            "question": "Co przypomina Twój liść?",
+            "value-1": "Dłoń",
+            "value-2": "Elipsę"
+        },
+        "3": {
+            "question": "Jaki brzeg ma Twój liść?",
+            "value-1": "Podwójnie piłkowany",
+            "value-2": "Gładki"
+        },
+        "4": {
+            "question": "Jakie użyłkowanie ma Twój liść?",
+            "value-1": "Pierzyste",
+            "value-2": "Wachlarzowate"
+        },
+        "congratulations": {
+            "text": "Gratulacje!",
+            "text-small": "Twój liść należy do  olszy szarej. Gdyby wierzchołek Twojego liścia posiadałby wcięcie należałby do olszy czarnej",
+            "text-bottom": "Poznaj lepiej olsze szarą:"
+        },
+        "i1": {
+            "image": "//",
+            "image-small": "//",
+            "text": "Owocami olszy szarej są zdrewniałe jajowate szyszeczki, które początkowo są zielone, a kiedy dojrzeją brązowieją. Wewnątrz szyszeczek znajdują się nasiona zaopatrzone w cienkie skrzydełka. Po uwolnieniu nasion szyszeczki bardzo długo pozostają na drzewie."
+        },
+        "i2": {
+            "image": "//",
+            "image-small2": "//",
+            "text": "Kora olszy szarej jest ciemnoszara i gładka. Bardzo często posiada widoczne poziome przetchlinki, dzięki którym drzewo może „oddychać” przez korę."
+        },
+        "i3": {
+            "image-big": "//",
+            "text": "Olsza szara czasem przyjmuje formę krzewu. Dorasta do 20 metrów i wytwarza jajowatą koronę. Jest gatunkiem, który jak na drzewo, żyje bardzo krótko – do 60 lat. Jest gatunkiem pionierskim, co oznacza, że jako pierwsza pojawia się na terenach pozbawionych roślinności. We wzroście nie przeszkadzają jej trudne warunki glebowe."
+        }
+    },
+    "16": {
+        "name": "sosna",
+        "code": "#1234567890",
+        "value-question": "3",
+        "value-info": "3",
+        "1": {
+            "question": "Co przypomina Twój liść?",
+            "value-1": "Igłę",
+            "value-2": "Dłoń"
+        },
+        "2": {
+            "question": "Igły wyrastają pojedynczo czy jest ich więcej?",
+            "value-1": "Pojedyncza igła",
+            "value-2": "Więcej niż jedna igła"
+        },
+        "3": {
+            "question": "Czy Twój liść ma na spodzie białe paski?",
+            "value-1": "Tak",
+            "value-2": "Nie"
+        },
+        "congratulations": {
+            "text": "Gratulacje!",
+            "text-small": "Twój liść należy do  sosny pospolitej.",
+            "text-bottom": "Poznaj lepiej sosnę pospolitą:"
+        },
+        "i1": {
+            "image": "//",
+            "image-small": "//",
+            "text": "Szyszki sosny pospolitej osadzone są na krótkich szypułkach. Początkowo są zamknięte, małe i zielone, o jajowatym kształcie. Z czasem przybierają barwę jasnobrązową i otwierają się, wysypując niewielkie czarne nasiona, zaopatrzone w skrzydełka."
+        },
+        "i2": {
+            "image": "//",
+            "image-small2": "//",
+            "text": "W dolnej części pni kora sosny zwyczajnej jest gruba, o szarawym zabawieniu i głębokich bruzdach (spękaniach). W górnej części drzewa kora jest cieńsza, czerwono-cynamonowa i łuszczy się cienkimi płatami."
+        },
+        "i3": {
+            "image-big": "//",
+            "text": "Sosny pospolite dorastają przeciętnie do około 30 m., najwyższe okazy mogą mieć jednak nawet 45 m. Pokrój sosny pospolitej jest bardzo zmienny, w zależności od warunków. Rosnące samotnie sosny mają rozłożyste, szerokie i dosyć gęste korony. Natomiast, rosnąc w zwarciu w skupiskach leśnych, drzewa te szybko tracą dolne gałęzie i wykształcają prosty pień o wysoko osadzonej koronie."
+        }
+    },
+    "17": {
+        "name": "świerk",
+        "code": "#1234567890",
+        "value-question": "3",
+        "value-info": "3",
+        "1": {
+            "question": "Co przypomina Twój liść?",
+            "value-1": "Dłoń",
+            "value-2": "Igłę"
+        },
+        "2": {
+            "question": "Igły wyrastają pojedynczo czy jest ich więcej?",
+            "value-1": "Pojedyncza igła",
+            "value-2": "Więcej niż jedna igła"
+        },
+        "3": {
+            "question": "Czy Twój liść ma na spodzie białe paski?",
+            "value-1": "Tak",
+            "value-2": "Nie"
+        },
+        "congratulations": {
+            "text": "Gratulacje!",
+            "text-small": "Twój liść należy do świerka pospolitego.",
+            "text-bottom": "Poznaj lepiej świerk pospolity:"
+        },
+        "i1": {
+            "image": "//",
+            "image-small": "//",
+            "text": "Szyszki świerka pospolitego są mocno wydłużone, gładkie i długie (ok. 10 - 15 cm), przypominają swoim kształtem cygaro. Ich charakterystyczną cechą jest zwisanie w dół z gałęzi. Szyszki są początkowo zielone, z czasem przybierają barwę jasnobrązową. Opadają w całości na glebę. Niewielkie brązowe nasionka, ukryte w szyszkach, zaopatrzone są w podłużne skrzydełka, dzięki którym nasiona mogą być z łatwością przenoszone przez wiatr."
+        },
+        "i2": {
+            "image": "//",
+            "image-small2": "//",
+            "text": "Kora świerka pospolitego ma barwę czerwonobrązową do szarobrązowej. U młodych drzew jest gładka, z wiekiem staje się jednak wyraźnie łuskowata."
+        },
+        "i3": {
+            "image-big": "//",
+            "text": "Świerk pospolity to jedno z najwyższych rodzimych drzew. W sprzyjających warunkach może dorastać nawet do 60 m! Jednak zwykle nie przekracza 40 m. Do niedawna uważano, że świerk pospolity dożywa do ok. 500 lat. Niedawno jednak odkryto w Szwecji osobnika tego gatunku, którego wiek oszacowano na 9550 lat, co czyni go najstarszym zbadanym drzewem na świecie! Najstarszy okaz tego gatunku rosnący w Polsce jest znacznie młodszy i ma ok. 350 lat. Świerk pospolity wykształca symetryczną, smukłą, wydłużoną koronę."
+        }
+    },
+    "18": {
+        "name": "wiąz",
+        "code": "#1234567890",
+        "value-question": "4",
+        "value-info": "3",
+        "1": {
+            "question": "Czy Twój liść jest pojedynczy czy złożony?",
+            "value-1": "Pojedynczy",
+            "value-2": "Złożony"
+        },
+        "2": {
+            "question": "Co przypomina Twój liść?",
+            "value-1": "Lancę",
+            "value-2": "Elipsę"
+        },
+        "3": {
+            "question": "Czy Twój liść ma piłkowany brzeg?",
+            "value-1": "Tak",
+            "value-2": "Nie"
+        },
+        "4": {
+            "question": "Twój liść jest symetryczny czy asymetryczny?",
+            "value-1": "Symetryczny",
+            "value-2": "Asymetryczny"
+        },
+        "congratulations": {
+            "text": "Gratulacje!",
+            "text-small": "Twój liść należy do wiązu szypułkowego",
+            "text-bottom": "Poznaj lepiej wiąz szypułkowy:"
+        },
+        "i1": {
+            "image": "//",
+            "image-small": "//",
+            "text": "Owocem wiązu szypułkowego jest mocno spłaszczony orzeszek otoczony dookoła delikatnym skrzydełkiem, które w dotyku przypomina cienki papier."
+        },
+        "i2": {
+            "image": "//",
+            "image-small2": "//",
+            "text": "Kora wiązów szypułkowych jest szara i płytko spękana."
+        },
+        "i3": {
+            "image-big": "//",
+            "text": "Wiązy szypułkowe dorastają do około 35 m. Cechą charakterystyczną tego gatunku jest wyraźnie rozszerzony u podstawy pień. U starszych drzew nasada pnia jest często wzmacniana przez potężne wsporniki nazywane nabiegami korzeniowymi. Najstarszy rosnący w Polsce wiąz szypułkowy - to „Wiąz Wiedźmin”, którego wiek szacuje się na ponad 460 lat!"
+        }
+    }
+}
