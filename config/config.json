@@ -20,5 +20,5 @@
     "led-id-16":    ["ip-led-driver-2", "10000000"],
     "led-id-17":    ["ip-led-driver-3", "00000001"],
     "led-id-18":    ["ip-led-driver-3", "00000010"],
-    "led-off":      "00000000",
+    "led-off":      "00000000"
 }
