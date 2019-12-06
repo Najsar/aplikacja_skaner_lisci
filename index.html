@@ -3,7 +3,22 @@
         <title>Skaner Liści</title>
         <meta charset="utf-8">
         <style>
-            
+            body {
+                background-size: cover;
+                background-repeat: no-repeat;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .start-box {
+                width: 55%;
+                height: 10%;
+                font-size: 1100%;
+                text-transform: uppercase;
+                color: white;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+            }
         </style>
     </head>
     <body>
@@ -23,12 +38,44 @@
                     console.log( 'Światla wlączone: ' + lights_on + ' Światła wyłączone: ' + lights_off)
                 })
             }
-            setInterval(() => {
+            $(() => {
+                var qestions_data;
+                var config_data;
+                $.getJSON("config/questions.json", function( data ) { 
+                    //console.log(data)
+                    $('body').css('background-image', 'url('+data['start-screen']['image']+')');
+                    $('body').append('<div class="start-box">'+data['start-screen']['text']+'</div>')
+
+                    qestions_data = data;
+                })
+                $.getJSON("config/config.json", function( data ) { 
+                    config_data = data;
+                })
+                let buffer = '';
+                document.addEventListener('keypress', event => {
+                    let code = buffer || '';
+                    if (event.key !== 'Enter') {
+                        code += event.key;
+                        buffer = code;
+                    } 
+                    else {
+                        buffer = '';
+                        if(qestions_data['codes'][code] != undefined) {
+                            var question = qestions_data[qestions_data['codes'][code]];
+                            question['id'] = qestions_data['codes'][code];
+                            console.log(question['name'])
+                            var leds_start = "Starting led: " + question['id'] + " with code: " + config_data['led-id-'+question['id']][1] + " and Working with LED driver: " + config_data['led-id-'+ question['id']][0] + " with IP: " + config_data[ config_data['led-id-'+ question['id']][0] ];
+                            console.log(leds_start);
+                        }
+                    }
+                });
+            })
+            /*setInterval(() => {
                 lights_on('01010101')
                 setTimeout(() => {
                     lights_on('10101010')
                 }, 500)
-            }, 1000)
+            }, 1000)*/
         </script>
     </body>
 </html>
