@@ -11,11 +11,11 @@ let mainWindow
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 1280,
-    height: 800,
+    width: 1024,
+    height: 768,
     frame: false,
     icon: 'images/icon.png',
-    fullscreen: false
+    fullscreen: true
   })
 
   // disable default menu
