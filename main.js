@@ -13,9 +13,12 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     width: 607,
     height: 1080,
-    frame: true,
+    frame: false,
     icon: 'build/icon.png',
-    fullscreen: false
+    fullscreen: true,
+    webPreferences: {
+      nodeIntegration: true
+    }
   })
 
   // disable default menu
@@ -39,6 +42,8 @@ function createWindow () {
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
 app.on('ready', createWindow)
+
+global.appPatch = {path: app.getAppPath(), file: app.getAppPath()};
 
 // Quit when all windows are closed.
 app.on('window-all-closed', function () {

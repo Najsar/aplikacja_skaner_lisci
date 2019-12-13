@@ -16,6 +16,14 @@
     "electron-builder": "^22.1.0"
   },
   "dependencies": {
-    "electron-reload": "^1.5.0"
+    "electron-reload": "^1.5.0",
+    "jquery": "^3.4.1"
+  },
+  "build": {
+    "appId": "com.zenonvr.skaner-lisci",
+    "extraFiles": [
+      "config"
+    ],
+    "publish": null
   }
 }

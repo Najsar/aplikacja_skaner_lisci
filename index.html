@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <style>
             body {
+                background-color: black;
                 background-size: cover;
                 background-repeat: no-repeat;
                 display: flex;
@@ -19,15 +20,150 @@
                 text-align: center;
                 font-family: Arial, Helvetica, sans-serif;
             }
+            .success-box {
+                color: white;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .success-box-text {
+                position: absolute;
+                top: 47%;
+                font-size: 900%;
+                text-transform: uppercase;
+            }
+            .success-box-text-small {
+                position: absolute;
+                top: 55%;
+                width: 50%;
+                font-size: 500%;
+            }
+            .success-box-text-bottom {
+                position: absolute;
+                font-size: 350%;
+                bottom: 15%;
+                text-transform: uppercase;
+            }
+            .success-box-button {
+                background: transparent;
+                background-image: url("images/button-3.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 450px;
+                height: 180px;
+                position: absolute;
+                bottom: 8%;
+                cursor: pointer;
+                border: none;
+            }
+            .success-box-info-text {
+                position: absolute;
+                color: white;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .success-box-info-button {
+                background: transparent;
+                background-image: url("images/button-2.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 450px;
+                height: 180px;
+                position: absolute;
+                bottom: 6%;
+                cursor: pointer;
+                border: none;
+            }
+            .fail-box-text {
+                color: white;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                width: 50%;
+                top: 70%;
+                font-size: 900%;
+                text-transform: uppercase;
+            }
+            .fail-box-button {
+                background: transparent;
+                background-image: url("images/button-3.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 450px;
+                height: 180px;
+                position: absolute;
+                bottom: 8%;
+                cursor: pointer;
+                border: none;
+            }
+            .question-box {
+                background-image: url("images/question-box.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 400px;
+                font-size: 800%;
+                color: white;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                position: relative;
+                top: 27%;
+                padding-top: 100px;
+                padding-bottom: 120px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .question {
+                width: 50%;
+            }
+            .button-box {
+                width: 100%;
+                position: absolute;
+                bottom: 12%;
+            }
+            .question-button {
+                background: transparent;
+                background-image: url("images/button-1.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 450px;
+                height: 150px;
+                color: white;
+                position: absolute;
+                cursor: pointer;
+                border: none;
+                text-transform: uppercase;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 200%;
+            }
+            .question-button-1 {
+                left: 15%;
+            }
+            .question-button-2 {
+                float: right;
+                right: 15%;
+            }
         </style>
     </head>
     <body>
-        
-        <script src="js/jquery-3.4.1.min.js"></script>
         <script>
-            function lights_on(pin) {
+            window.$ = window.jQuery = require('jquery');
+            
+            var questions_data;
+            var config_data;
+            var question_nr = 0;
+            function load_config() {
+                $.getJSON(__dirname+"../../../config/config.json", function( data ) { 
+                    config_data = data;
+                });
+                $.getJSON(__dirname+"../../../config/questions.json", function( data ) { 
+                    questions_data = data;
+                });
+            }
+            function lights_on(ip, pin) {
                 $.ajax({
-                    url: "http://admin:admin00@192.168.0.175/stat.php?set="+ pin,
+                    url: "http://admin:admin00@" + ip + "/stat.php?set="+ pin,
                     xhrFields: {
                         withCredentials: true
                     },
@@ -35,47 +171,98 @@
                 }).done((ajax) => {
                     var lights_on = $(ajax).find('on').text();
                     var lights_off = $(ajax).find('out').text();
-                    console.log( 'Światla wlączone: ' + lights_on + ' Światła wyłączone: ' + lights_off)
                 })
             }
-            $(() => {
-                var qestions_data;
-                var config_data;
-                $.getJSON("config/questions.json", function( data ) { 
-                    //console.log(data)
-                    $('body').css('background-image', 'url('+data['start-screen']['image']+')');
-                    $('body').append('<div class="start-box">'+data['start-screen']['text']+'</div>')
+            function check_question(id, nr, answer) {
+                var question = questions_data[id][nr];
+                var question_list = questions_data[id]['value-question'];
+                var good_answer = questions_data[id][nr]['good'];
+                if(answer == good_answer) {
+                    if(nr == question_list) {
+                        success(id)
+                    }
+                    else {
+                        load_question(id, nr+1);
+                    }
+                }
+                else {
+                    fail(id, nr);
+                }
+            }
+            function load_question(id, question_nr) {
+                var question = questions_data[id];
+                $('body').empty();
+                $('body').css( 'background-image', 'url("images/backgrounds/tło pytanie ' + id + '-' + question_nr + '.png")' );
+                $('body').append('<div class="question-box"><div class="question">' + question[question_nr]['question'] + '</div></div>');
+                $('body').append('<div class="button-box"><button class="question-button question-button-1" onClick="check_question('+ id +',' + question_nr + ',1)">' + question[question_nr]['value-1'] + '</button><button class="question-button question-button-2" onClick="check_question('+ id +',' + question_nr + ',2)">' + question[question_nr]['value-2'] + '</button></div>');
+            }
+            function load_success(id, nr) {
+                var question = questions_data[id]["i"+nr];
+                $('body').empty();
+                $('body').css( 'background-image', 'url("images/info-background/tło ' + id + '-' + nr + '.png")' );
+                if(nr == questions_data[id]['value-info']) {
+                    $('body').append('<button class="success-box-info-button" onClick="load_start()"></button>');
+                }
+                else {
+                    $('body').append('<button class="success-box-info-button" onClick="load_success('+id+', '+(nr+1)+')"></button>');
+                }
+            }
+            function success(id) {
+                var data = questions_data[id]['congratulations'];
+                $('body').empty();
+                $('body').css( 'background-image', 'url(' + data['image'] + ')' );
+                $('body').append('<div class="success-box success-box-text">'+data['text']+'</div><div class="success-box success-box-text-small">'+data['text-small']+'</div><div class="success-box success-box-text-bottom">'+data['text-bottom']+'</div><button class="success-box-button" onClick="load_success('+id+', 1)"></button>');
+            }
+            function fail(id, question_nr) {
+                var data = questions_data['fail-screen'];
+                $('body').empty();
+                $('body').css( 'background-image', 'url(' + data['image'] + ')' );
+                $('body').append('<div class="fail-box-text">'+data['text']+'</div><button class="fail-box-button" onClick="load_question('+id+', '+question_nr+')"></button>');
+            }
+            function load_start() {
+                lights_on(config_data[ config_data['led-id-'+ question_nr ][0] ], config_data['led-off']);
+                question_nr = 0;
+                $('body').empty();
+                $('body').css('background-image', 'url('+questions_data['start-screen']['image']+')');
+                $('body').append('<div class="start-box">'+questions_data['start-screen']['text']+'</div>');
+            }
 
-                    qestions_data = data;
-                })
-                $.getJSON("config/config.json", function( data ) { 
+            $(() => {
+                $.getJSON(__dirname+"../../../config/config.json", function( data ) { 
                     config_data = data;
-                })
+                });
+                $.getJSON(__dirname+"../../../config/questions.json", function( data ) { 
+                    questions_data = data;
+                    $('body').css('background-image', 'url('+questions_data['start-screen']['image']+')');
+                    $('body').append('<div class="start-box">'+questions_data['start-screen']['text']+'</div>');
+                });
+                
                 let buffer = '';
                 document.addEventListener('keypress', event => {
-                    let code = buffer || '';
-                    if (event.key !== 'Enter') {
-                        code += event.key;
-                        buffer = code;
-                    } 
-                    else {
-                        buffer = '';
-                        if(qestions_data['codes'][code] != undefined) {
-                            var question = qestions_data[qestions_data['codes'][code]];
-                            question['id'] = qestions_data['codes'][code];
-                            console.log(question['name'])
-                            var leds_start = "Starting led: " + question['id'] + " with code: " + config_data['led-id-'+question['id']][1] + " and Working with LED driver: " + config_data['led-id-'+ question['id']][0] + " with IP: " + config_data[ config_data['led-id-'+ question['id']][0] ];
-                            console.log(leds_start);
+                    if(question_nr == 0) {
+                        let code = buffer || '';
+                        if (event.key !== 'Enter') {
+                            code += event.key;
+                            buffer = code;
+                        } 
+                        else {
+                            buffer = '';
+                            if(questions_data['codes'][code] != undefined) {
+                                var question = questions_data[questions_data['codes'][code]];
+                                question['id'] = questions_data['codes'][code];
+
+                                var leds_start = "Starting led: " + question['id'] + " with code: " + config_data['led-id-'+question['id']][1] + " and Working with LED driver: " + config_data['led-id-'+ question['id']][0] + " with IP: " + config_data[ config_data['led-id-'+ question['id']][0] ];
+
+                                lights_on(config_data[ config_data['led-id-'+ question['id']][0] ], config_data['led-id-'+question['id']][1]);
+
+                                load_question(question['id'], 1);
+                                
+                                question_nr = question['id'];
+                            }
                         }
                     }
                 });
             })
-            /*setInterval(() => {
-                lights_on('01010101')
-                setTimeout(() => {
-                    lights_on('10101010')
-                }, 500)
-            }, 1000)*/
         </script>
     </body>
 </html>

@@ -4,6 +4,10 @@
         "image": "images/start-background.png",
         "text": "Zeskanuj liść aby rozpocząć"
     },
+    "fail-screen": {
+        "image": "images/fail-background.png",
+        "text": "Przyjrzyj się uważnie!"
+    },
     "codes": {
         "111111118819": 1,
         "211111118816": 2,
@@ -31,22 +35,26 @@
         "1": {
             "question": "Czy twój liść jest pojedynczy czy złożony?",
             "value-1": "Pojedynczy",
-            "value-2": "Złożony"
+            "value-2": "Złożony",
+            "good": 2
         },
         "2": {
             "question": "Twój liść złożony jest...",
             "value-1": "Parzystopierzasty",
-            "value-2": "Nieparzystopierzasty"
+            "value-2": "Nieparzystopierzasty",
+            "good": 2
         },
         "3": {
             "question": "W jaki sposób liście rosną na łodydze?",
             "value-1": "Skrętolegle",
-            "value-2": "Naprzeciwlegle"
+            "value-2": "Naprzeciwlegle",
+            "good": 2
         },
         "congratulations": {
+            "image":"images/congratulation-background.png",
             "text": "Gratulacje!",
             "text-small": "Twój liść należy do bzu czarnego",
-            "text-bottom": "Poznaj lepiej bez czarny"
+            "text-bottom": "Poznaj lepiej bez czarny:"
         },
         "i1": {
             "image": "images/info-images/bez drzewo.jpg",
@@ -70,19 +78,23 @@
         "1": {
             "question": "Czy Twój liść jest pojedynczy czy złożony?",
             "value-1": "Pojedynczy",
-            "value-2": "Złożony"
+            "value-2": "Złożony",
+            "good": 1
         },
         "2": {
             "question": "Co przypomina Twój liść?",
             "value-1": "igłę",
-            "value-2": "trójkąt"
+            "value-2": "trójkąt",
+            "good": 2
         },
         "3": {
             "question": "Brzeg Twojego liścia jest piłkowany czy gładki?",
             "value-1": "Podwójnie Piłkowany",
-            "value-2": "Gładki"
+            "value-2": "Gładki",
+            "good": 1
         },
         "congratulations": {
+            "image":"images/congratulation-background.png",
             "text": "Gratulacje!",
             "text-small": "Twój liść należy do brzozy brodawkowatej.",
             "text-bottom": "Poznaj lepiej brzozę brodawkowatą:"
@@ -109,19 +121,23 @@
         "1": {
             "question": "Czy Twój liść jest pojedynczy czy złożony?",
             "value-1": "Pojedynczy",
-            "value-2": "Złożony"
+            "value-2": "Złożony",
+            "good": 1
         },
         "2": {
             "question": "Co przypomina Twój liść?",
             "value-1": "Elipsę",
-            "value-2": "Lancę"
+            "value-2": "Lancę",
+            "good": 1
         },
         "3": {
             "question": "Jaki brzeg ma Twój liść?",
             "value-1": "Lekko falisty",
-            "value-2": "Podwójnie Piłkowany"
+            "value-2": "Podwójnie Piłkowany",
+            "good": 1
         },
         "congratulations": {
+            "image":"images/congratulation-background.png",
             "text": "Gratulacje!",
             "text-small": "Twój liść należy do buka pospolitego.",
             "text-bottom": "Poznaj lepiej buka pospolitego:"
@@ -148,29 +164,35 @@
         "1": {
             "question": "Czy Twój liść jest pojedynczy czy złożony?",
             "value-1": "Pojedynczy",
-            "value-2": "Złożony"
+            "value-2": "Złożony",
+            "good": 1
         },
         "2": {
             "question": "Co przypomina Twój liść?",
             "value-1": "Elipsę",
-            "value-2": "Serce"
+            "value-2": "Serce",
+            "good": 1
         },
         "3": {
             "question": "Czy Twój liść ma długi ostry wierzchołek?",
             "value-1": "Tak",
-            "value-2": "Nie"
+            "value-2": "Nie",
+            "good": 1
         },
         "4": {
             "question": "Jaki brzeg ma Twój liść?",
             "value-1": "Piłkowany",
-            "value-2": "Całobrzegi"
+            "value-2": "Całobrzegi",
+            "good": 1
         },
         "5": {
             "question": "Czy na spodzie liścia są kępki rdzawych włosków?",
             "value-1": "Tak",
-            "value-2": "Nie"
+            "value-2": "Nie",
+            "good": 1
         },
         "congratulations": {
+            "image":"images/congratulation-background.png",
             "text": "Gratulacje!",
             "text-small": "Twój liść należy do czermchy zwyczajnej.",
             "text-bottom": "Poznaj lepiej czermchę zwyczajną:"
@@ -197,24 +219,29 @@
         "1": {
             "question": "Czy Twój liść jest pojedynczy czy złożony?",
             "value-1": "Pojedynczy",
-            "value-2": "Złożony"
+            "value-2": "Złożony",
+            "good": 1
         },
         "2": {
             "question": "Czy Twój liść ma klapy?",
             "value-1": "Tak",
-            "value-2": "Nie"
+            "value-2": "Nie",
+            "good": 1
         },
         "3": {
             "question": "Czy wcięcia w klapie Twojego liścia są ostre czy okrągłe?",
-            "value-1": "ostre",
-            "value-2": "Okrągłe"
+            "value-1": "Ostre",
+            "value-2": "Okrągłe",
+            "good": 2
         },
         "4": {
             "question": "Czy Twój liść ma „uszka” u nasady liścia?",
             "value-1": "Tak",
-            "value-2": "Nie"
+            "value-2": "Nie",
+            "good": 1
         },
         "congratulations": {
+            "image":"images/congratulation-background.png",
             "text": "Gratulacje!",
             "text-small": "Twój liść należy do dębu szypułkowego. Gdyby liść o podobnym kształcie nie miał „uszek” u nasady liścia, należałby do dębu bezszypułkowego.",
             "text-bottom": "Poznaj lepiej dąb szypułkowy:"
@@ -241,19 +268,23 @@
         "1": {
             "question": "Co przypomina Twój liść?",
             "value-1": "Dłoń",
-            "value-2": "Elipsę"
+            "value-2": "Elipsę",
+            "good": 2
         },
         "2": {
             "question": "Jaki brzeg ma Twój liść?",
             "value-1": "Podwójnie piłkowany",
-            "value-2": "Gładki"
+            "value-2": "Gładki",
+            "good": 2
         },
         "3": {
             "question": "Czy Twój liść ma długi ostry wierzchołek?",
             "value-1": "Tak",
-            "value-2": "Nie"
+            "value-2": "Nie",
+            "good": 2
         },
         "congratulations": {
+            "image":"images/congratulation-background.png",
             "text": "Gratulacje!",
             "text-small": "Twój liść należy do derenia jadalnego.",
             "text-bottom": "Poznaj lepiej dereń jadalny:"
@@ -280,19 +311,23 @@
         "1": {
             "question": "Czy Twój liść jest pojedynczy czy złożony?",
             "value-1": "Pojedynczy",
-            "value-2": "Złożony"
+            "value-2": "Złożony",
+            "good": 2
         },
         "2": {
             "question": "Czy wcięcia w klapie Twojego liścia są ostre czy okrągłe?",
             "value-1": "Ostre",
-            "value-2": "Okrągłe"
+            "value-2": "Okrągłe",
+            "good": 1
         },
         "3": {
             "question": "Jaką nasadę ma Twój liść?",
             "value-1": "Klinowatą",
-            "value-2": "Asymetryczną"
+            "value-2": "Asymetryczną",
+            "good": 2
         },
         "congratulations": {
+            "image":"images/congratulation-background.png",
             "text": "Gratulacje!",
             "text-small": "Twój liść należy do głogu jednoszyjkowego.",
             "text-bottom": "Poznaj lepiej głog jednoszyjkowy:"
@@ -319,24 +354,29 @@
         "1": {
             "question": "Czy Twój liść jest pojedynczy czy złożony?",
             "value-1": "Pojedynczy",
-            "value-2": "Złożony"
+            "value-2": "Złożony",
+            "good": 1
         },
         "2": {
             "question": "Co przypomina Twój liść?",
             "value-1": "Serce",
-            "value-2": "Elipsę"
+            "value-2": "Elipsę",
+            "good": 2
         },
         "3": {
             "question": "Jaki brzeg ma Twój liść?",
             "value-1": "Lekko falisty",
-            "value-2": "Podwójnie piłkowany"
+            "value-2": "Podwójnie piłkowany",
+            "good": 1
         },
         "4": {
             "question": "Czy nerwy na Twoim liściu są bardzo wyraźnie widoczne i przypominają harmonijkę?",
             "value-1": "Tak",
-            "value-2": "Nie"
+            "value-2": "Nie",
+            "good": 1
         },
         "congratulations": {
+            "image":"images/congratulation-background.png",
             "text": "Gratulacje!",
             "text-small": "Twój liść należy do graba pospolitego.",
             "text-bottom": "Poznaj lepiej graba pospolitego:"
@@ -363,29 +403,35 @@
         "1": {
             "question": "Czy Twój liść jest pojedynczy czy złożony?",
             "value-1": "Pojedynczy",
-            "value-2": "Złożony"
+            "value-2": "Złożony",
+            "good": 2
         },
         "2": {
             "question": "Twój liść złożony jest...",
             "value-1": "Parzystopierzasty",
-            "value-2": "Nieparzystopierzasty"
+            "value-2": "Nieparzystopierzasty",
+            "good": 2
         },
         "3": {
             "question": "Brzeg Twojego liścia jest gładki czy piłkowany?",
             "value-1": "Gładki",
-            "value-2": "Piłkowany"
+            "value-2": "Piłkowany",
+            "good": 2
         },
         "4": {
             "question": "Co przypomina Twój liść?",
             "value-1": "Lancę",
-            "value-2": "Elipsę"
+            "value-2": "Elipsę",
+            "good": 1
         },
         "5": {
             "question": "W jaki sposób liście rosną na łodydze?",
             "value-1": "Skrętolegle",
-            "value-2": "Naprzeciwlegle"
+            "value-2": "Naprzeciwlegle",
+            "good": 1
         },
         "congratulations": {
+            "image":"images/congratulation-background.png",
             "text": "Gratulacje!",
             "text-small": "Twój liść należy do jarzębu pospolitego.",
             "text-bottom": "Poznaj lepiej jarząb pospolity:"
@@ -412,29 +458,35 @@
         "1": {
             "question": "Czy Twój liść jest pojedynczy czy złożony?",
             "value-1": "Pojedynczy",
-            "value-2": "Złożony"
+            "value-2": "Złożony",
+            "good": 2
         },
         "2": {
             "question": "Twój liść złożony jest...",
             "value-1": "Parzystopierzasty",
-            "value-2": "Nieparzystopierzasty"
+            "value-2": "Nieparzystopierzasty",
+            "good": 2
         },
         "3": {
             "question": "Brzeg Twojego liścia jest gładki czy piłkowany?",
             "value-1": "Gładki",
-            "value-2": "Piłkowany"
+            "value-2": "Piłkowany",
+            "good": 2
         },
         "4": {
             "question": "Co przypomina Twój liść?",
             "value-1": "Lancę",
-            "value-2": "Elipsę"
+            "value-2": "Elipsę",
+            "good": 1
         },
         "5": {
             "question": "W jaki sposób liście rosną na łodydze?",
             "value-1": "Skrętolegle",
-            "value-2": "Naprzeciwlegle"
+            "value-2": "Naprzeciwlegle",
+            "good": 2
         },
         "congratulations": {
+            "image":"images/congratulation-background.png",
             "text": "Gratulacje!",
             "text-small": "Twój liść należy do jesiona wyniosłego.",
             "text-bottom": "Poznaj lepiej jesion wyniosły:"
@@ -461,19 +513,23 @@
         "1": {
             "question": "Co przypomina Twój liść?",
             "value-1": "Dłoń",
-            "value-2": "Igłę"
+            "value-2": "Igłę",
+            "good": 2
         },
         "2": {
             "question": "Igły wyrastają pojedynczo czy jest ich więcej?",
             "value-1": "Pojedyncza igła",
-            "value-2": "Więcej niż jedna igła"
+            "value-2": "Więcej niż jedna igła",
+            "good": 1
         },
         "3": {
             "question": "Czy Twój liść ma na spodzie dwa białe paski?",
             "value-1": "Tak",
-            "value-2": "Nie"
+            "value-2": "Nie",
+            "good": 1
         },
         "congratulations": {
+            "image":"images/congratulation-background.png",
             "text": "Gratulacje!",
             "text-small": "Twój liść należy do jodły pospolitej.",
             "text-bottom": "Poznaj lepiej jodłę pospolitą:"
@@ -500,24 +556,29 @@
         "1": {
             "question": "Czy Twój liść jest pojedynczy czy złożony?",
             "value-1": "Pojedynczy",
-            "value-2": "Złożony"
+            "value-2": "Złożony",
+            "good": 1
         },
         "2": {
             "question": "Co przypomina Twój liść?",
             "value-1": "Serce",
-            "value-2": "Dłoń"
+            "value-2": "Dłoń",
+            "good": 2
         },
         "3": {
             "question": "Twój liść jest dłoniastodzielny czy dłoniasto-klapowany?",
             "value-1": "Dłoniastodzielny",
-            "value-2": "Dłoniastoklapowany"
+            "value-2": "Dłoniastoklapowany",
+            "good": 2
         },
         "4": {
             "question": "Czy wcięcia w klapie Twojego liścia są ostre czy okrągłe?",
             "value-1": "Ostre",
-            "value-2": "Okrągłe"
+            "value-2": "Okrągłe",
+            "good": 1
         },
         "congratulations": {
+            "image":"images/congratulation-background.png",
             "text": "Gratulacje!",
             "text-small": "Twój liść należy do klonu jawora.",
             "text-bottom": "Poznaj lepiej klon jawor:"
@@ -544,29 +605,35 @@
         "1": {
             "question": "Czy Twój liść jest pojedynczy czy złożony?",
             "value-1": "Pojedynczy",
-            "value-2": "Złożony"
+            "value-2": "Złożony",
+            "good": 2
         },
         "2": {
             "question": "Czy Twój liść ma klapy?",
             "value-1": "Tak",
-            "value-2": "Nie"
+            "value-2": "Nie",
+            "good": 1
         },
         "3": {
             "question": "Co przypomina Twój liść? ",
             "value-1": "Dłoń",
-            "value-2": "Serce"
+            "value-2": "Serce",
+            "good": 1
         },
         "4": {
             "question": "Twój liść jest dłoniastodzielny czy dłoniasto-klapowany?",
             "value-1": "Dłoniastodzielny",
-            "value-2": "Dłoniasto-klapowany"
+            "value-2": "Dłoniasto-klapowany",
+            "good": 2
         },
         "5": {
             "question": "Czy Twój liść ma ostro zakończone wierzchołki klap?",
             "value-1": "Tak",
-            "value-2": "Nie"
+            "value-2": "Nie",
+            "good": 1
         },
         "congratulations": {
+            "image":"images/congratulation-background.png",
             "text": "Gratulacje!",
             "text-small": "Twój liść należy do klonu pospolitego.",
             "text-bottom": "Poznaj lepiej klon pospolitego:"
@@ -593,19 +660,23 @@
         "1": {
             "question": "Czy Twój liść jest pojedynczy czy złożony?",
             "value-1": "Pojedynczy",
-            "value-2": "Złożony"
+            "value-2": "Złożony",
+            "good": 1
         },
         "2": {
             "question": "Co przypomina Twój liść?",
             "value-1": "Dłoń",
-            "value-2": "Serce"
+            "value-2": "Serce",
+            "good": 2
         },
         "3": {
             "question": "Jakiego koloru są kępki włosków na spodniej stronie Twojego liścia?",
             "value-1": "Pomarańczowo-Brązowe",
-            "value-2": "Białe"
+            "value-2": "Białe",
+            "good": 1
         },
         "congratulations": {
+            "image":"images/congratulation-background.png",
             "text": "Gratulacje!",
             "text-small": "Twój liść należy do  lipy drobnolistnej.",
             "text-bottom": "Poznaj lepiej lipę drobnolistną:"
@@ -632,24 +703,29 @@
         "1": {
             "question": "Czy Twój liść jest pojedynczy czy złożony?",
             "value-1": "Pojedynczy",
-            "value-2": "Złożony"
+            "value-2": "Złożony",
+            "good": 1
         },
         "2": {
             "question": "Co przypomina Twój liść?",
             "value-1": "Dłoń",
-            "value-2": "Elipsę"
+            "value-2": "Elipsę",
+            "good": 2
         },
         "3": {
             "question": "Jaki brzeg ma Twój liść?",
             "value-1": "Podwójnie piłkowany",
-            "value-2": "Gładki"
+            "value-2": "Gładki",
+            "good": 1
         },
         "4": {
             "question": "Jakie użyłkowanie ma Twój liść?",
             "value-1": "Pierzyste",
-            "value-2": "Wachlarzowate"
+            "value-2": "Wachlarzowate",
+            "good": 1
         },
         "congratulations": {
+            "image":"images/congratulation-background.png",
             "text": "Gratulacje!",
             "text-small": "Twój liść należy do  olszy szarej. Gdyby wierzchołek Twojego liścia posiadałby wcięcie należałby do olszy czarnej",
             "text-bottom": "Poznaj lepiej olsze szarą:"
@@ -676,19 +752,23 @@
         "1": {
             "question": "Co przypomina Twój liść?",
             "value-1": "Igłę",
-            "value-2": "Dłoń"
+            "value-2": "Dłoń",
+            "good": 1
         },
         "2": {
             "question": "Igły wyrastają pojedynczo czy jest ich więcej?",
             "value-1": "Pojedyncza igła",
-            "value-2": "Więcej niż jedna igła"
+            "value-2": "Więcej niż jedna igła",
+            "good": 2
         },
         "3": {
             "question": "Czy Twój liść ma na spodzie białe paski?",
             "value-1": "Tak",
-            "value-2": "Nie"
+            "value-2": "Nie",
+            "good": 2
         },
         "congratulations": {
+            "image":"images/congratulation-background.png",
             "text": "Gratulacje!",
             "text-small": "Twój liść należy do  sosny pospolitej.",
             "text-bottom": "Poznaj lepiej sosnę pospolitą:"
@@ -715,19 +795,23 @@
         "1": {
             "question": "Co przypomina Twój liść?",
             "value-1": "Dłoń",
-            "value-2": "Igłę"
+            "value-2": "Igłę",
+            "good": 2
         },
         "2": {
             "question": "Igły wyrastają pojedynczo czy jest ich więcej?",
             "value-1": "Pojedyncza igła",
-            "value-2": "Więcej niż jedna igła"
+            "value-2": "Więcej niż jedna igła",
+            "good": 1
         },
         "3": {
             "question": "Czy Twój liść ma na spodzie białe paski?",
             "value-1": "Tak",
-            "value-2": "Nie"
+            "value-2": "Nie",
+            "good": 2
         },
         "congratulations": {
+            "image":"images/congratulation-background.png",
             "text": "Gratulacje!",
             "text-small": "Twój liść należy do świerka pospolitego.",
             "text-bottom": "Poznaj lepiej świerk pospolity:"
@@ -754,24 +838,29 @@
         "1": {
             "question": "Czy Twój liść jest pojedynczy czy złożony?",
             "value-1": "Pojedynczy",
-            "value-2": "Złożony"
+            "value-2": "Złożony",
+            "good": 1
         },
         "2": {
             "question": "Co przypomina Twój liść?",
             "value-1": "Lancę",
-            "value-2": "Elipsę"
+            "value-2": "Elipsę",
+            "good": 2
         },
         "3": {
             "question": "Czy Twój liść ma piłkowany brzeg?",
             "value-1": "Tak",
-            "value-2": "Nie"
+            "value-2": "Nie",
+            "good": 1
         },
         "4": {
             "question": "Twój liść jest symetryczny czy asymetryczny?",
             "value-1": "Symetryczny",
-            "value-2": "Asymetryczny"
+            "value-2": "Asymetryczny",
+            "good": 2
         },
         "congratulations": {
+            "image":"images/congratulation-background.png",
             "text": "Gratulacje!",
             "text-small": "Twój liść należy do wiązu szypułkowego",
             "text-bottom": "Poznaj lepiej wiąz szypułkowy:"

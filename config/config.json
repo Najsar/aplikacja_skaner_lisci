@@ -1,7 +1,7 @@
 {
-    "ip-led-driver-1": "192.168.0.1",
-    "ip-led-driver-2": "192.168.0.2",
-    "ip-led-driver-3": "192.168.0.3",
+    "ip-led-driver-1": "192.168.0.175",
+    "ip-led-driver-2": "192.168.0.175",
+    "ip-led-driver-3": "192.168.0.175",
     "led-id-1":     ["ip-led-driver-1", "00000001"],
     "led-id-2":     ["ip-led-driver-1", "00000010"],
     "led-id-3":     ["ip-led-driver-1", "00000100"],
